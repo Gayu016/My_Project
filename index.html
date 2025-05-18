@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="icon" href="./images/BMI image.jpg">
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body style="background-color: skyblue;">
+    <div class="head">
+        <h1>BMI CALCULATOR 📱</h1>
+    </div>
+    <div class="hac">
+        <nav>
+            <a href="#Form">HOME</a>
+            <a href="#Usage">ABOUT</a>
+            <a href="#Contact">CONTACT</a>
+        </nav>
+    </div>
+    <div class="home" id="Home">
+        <img src="./images/BMI image.jpg" alt="" height="300" width="300">
+    </div>
+    <div class="formula">
+        <p>A <b style="color: darkmagenta;">BMI (Body Mass Index) </b>calculator is a tool used to assess whether a person has a healthy body weight for their height. It provides an estimate of body fat and helps classify individuals into different weight categories such as underweight, normal weight, overweight, or obese. However, BMI does not directly measure body fat percentage or distribution.</p>
+        <center>
+            <h2>BMI Formula</h2>
+        <p>BMI is calculated using the following core formula:</p>
+        <p style="color:darkred;">BMI= 
+            Weight (kg)
+             /
+            Height (m)^2
+            ​
+            </p>
+            <p>Alternatively, for those using the imperial system:</p>
+            <p style="color:darkred;">BMI= 
+                Weight (lbs)×703
+                / 
+                Height (in)^2
+                ​
+                </p>
+        </center>
+        
+    </div>
+    <div class="form" id="Form">
+        <h2>BMI Calculator</h2>
+        <p id="p1"><b>Enter your details below to know your BMI range:</b></p>
+        <br>
+        <form>
+            <table>
+                <tr><td><label for="l1"><b>Age:</b></label></td>
+                <td><input type="number" id="age" placeholder="Enter your Age"></td></tr>
+                <tr><td><label for="l2"><b>Gender:</b></label></td>
+                <td><select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select></td></tr>
+                <tr><td><label for="l3"><b>Height (cm):</b></label></td>
+                <td><input type="number" placeholder="Enter your Height" id="height">
+                </td></tr>
+                <tr><td><label for="l4"><b>Weight (kg):</b></label></td>
+                <td><input type="number" placeholder="Enter your weight" id="weight"></td></tr>
+            </table>
+        </form>
+        <br>
+        <br>
+        <center>
+            <button onclick="calculateBMI()">Calculate BMI</button>
+        </center>
+        <br>
+        <br>
+        <P id="result" style="color: darkblue; font-size: 20px; text-align: center; padding: 10px; font-weight: bold;"></P>
+    
+        
+    </div>
+    <div class="colorind">
+        <center>
+            <h2 style="color: maroon;">BMI Colour Code</h2>
+        </center>
+        <p id="pc1"><b>UNDERWEIGHT &lt; 18.5</b></p>
+        <p id="pc2"><b>NORMAL 18.5 - 25</b></p>
+        <p id="pc3"><b>OVERWEIGHT 25 - 30</b></p>
+        <p id="pc4"><b>OBESE >= 30</b></p>
+    </div>
+    <div class="usage" id="Usage">
+        <center>
+            <h2>Using BMI for Weight Management</h2>
+        </center>
+        <br>
+        <ul style="font-size: 18px;">
+            <li><p><b style="color: darkmagenta; font-weight: bolder;" ><b style="color: darkgreen;">BMI as a Baseline:</b> BMI can serve as a starting point when considering healthy weight goals. It helps you understand if you’re within a healthy range, but the
+                 focus should also be on physical activity and healthy eating for overall well-being.</b></p></li>
+                 <br>
+        
+            <li><p><b style="color: darkmagenta;"><b style="color: darkgreen;">Consulting Healthcare Professionals:</b> If your BMI suggests being underweight, overweight, or obese, it’s a good idea to consult a healthcare provider to discuss
+            
+                 potential lifestyle changes or other health evaluations.</b></p></li>
+        </ul>
+    </div>
+
+
+    <div class="about" id="About">
+        <center>
+        <h2>Limitations of BMI:</h2>
+        </center>
+        <br>
+        <ul style="font-size: 18px;">
+            <li><b style="color: darkmagenta;"><b style="color: darkgreen">Muscle Mass:</b> Athletes or people with higher muscle mass may have a higher BMI, which may not indicate excess body fat.</b></li>
+            <br>
+            <br>
+            <li><b style="color: darkmagenta;"><b style="color: darkgreen;">Body Composition:</b> It doesn't account for body fat percentage, distribution, or other factors like bone density.</b></li>
+            <br>
+            <br>
+            <li><b style="color:darkmagenta;"><b style="color: darkgreen;">Age and Gender:</b> BMI doesn't differentiate between men and women, and it may not be accurate for children or the elderly.</b></li>
+        </ul>
+        
+    </div>
+    <div class="contact" id="Contact">
+        <p>For any Questions or feedback about this BMI calculator , feel free to reach out.</p>
+        <p>Email : gayathri0162005@gmail.com</p>
+        <p>Ph.No : 9791990163</p>
+    </div>
+    
+    <script src="calcp.js"></script>
+    
+    
+</body>
+</html>
