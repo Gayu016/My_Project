@@ -1,0 +1,225 @@
+.head{
+    margin: 15px;
+    padding: 10px;
+    background-color:darkblue;
+    color:white;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.hac{
+    margin: 30px;
+    height: 25px;
+    width: 500px;
+    margin-left: 420px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: paleturquoise;
+    align-items: center;
+    
+}
+.hac nav a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+nav{
+    text-align:center ;
+
+}
+.hac a:hover{
+    color: darkblue;
+
+}
+.home{
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 2px blue;
+    padding: 10px;
+    margin: 40px;
+    margin-left: 120px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+
+}
+.home img{
+    align-items: center;
+}
+.formula{
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 2px blue;
+    padding: 10px;
+    margin: 40px;
+    background-color: powderblue;
+
+}
+.formula p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form{
+    margin: 10px;
+    border-radius: 8px;
+    display:inline-block;
+    width: 650px;
+    height: 600px;
+    box-shadow: 1px 3px 4px 3px blue;
+    margin-left: 120px;
+    margin-top: 25px;
+    background-color:whitesmoke ;
+
+}
+.form h2,#p1{
+    padding: 15px;
+    text-align: center;
+}
+.form h2{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+}
+.form #p1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgreen;
+    font-style: oblique;
+}
+.form label{
+    padding: 18px;
+    font-size: 20px;
+}
+
+#age,#gender,#height,#weight{
+    padding: 6px;
+    margin: 5px;
+    margin-left: 120px;
+    width: 200px;
+    background-color: aquamarine;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+#gender{
+    width: 215px;
+}
+.form button{
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+.form button:hover{
+    background-color: gray;
+    color: black;
+}
+.colorind{
+    display: inline-block;
+    min-height: 400px;
+    width: 420px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 6px 2px blue; 
+    background-color: white;
+    border-radius: 8px;
+    border-style: double;
+    border-color: blue;
+    position: absolute;
+    margin-top: 100px;
+
+}
+#pc1{
+    background-color: skyblue;
+    height: 25px;
+    width: 320px;
+    margin: 40px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 7px;
+
+}
+#pc2{
+    background-color: lightgreen;
+    height: 25px;
+    width: 320px;
+    margin: 40px;
+    text-align: center;
+    padding-top: 7px;
+
+
+}
+#pc3{
+    background-color: yellow;
+    height: 25px;
+    width: 320px;
+    margin: 40px;
+    text-align: center;
+    padding-top: 7px;
+
+
+}
+#pc4{
+    background-color: red;
+    height: 25px;
+    width: 320px;
+    margin: 40px;
+    text-align: center;
+    padding-top: 7px;
+
+
+}
+.usage{
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px 1px blue;
+    height: 300px;
+    width: 85%;
+    margin: 40px;
+    margin-left: 120px;
+    background-color: paleturquoise;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+
+
+}
+.about{
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px 1px blue;
+    height: 300px;
+    width: 85%;
+    margin: 40px;
+    margin-left: 120px;
+    background-color:paleturquoise;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+
+}
+.contact{
+    margin: 15px;
+    padding: 10px;
+    background-color:darkblue;
+    color:white;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px blue;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
